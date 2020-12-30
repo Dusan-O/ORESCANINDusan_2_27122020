@@ -60,7 +60,7 @@ nav ul .signin a:hover
     padding-top: 38px;
 }
 
-/* HEADER */
+//* HEADER */
 header
 {
     padding-left: 25px;
@@ -123,6 +123,25 @@ form
     border: 1px #F2F2F2c solid;
     border-radius: 10px;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.hebergements .hotels
+{
+   
+}
+
+.picture
+{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 
 }
 
