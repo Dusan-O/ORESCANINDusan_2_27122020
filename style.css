@@ -1,9 +1,40 @@
 header
 {}
 
-footer
-{}
 
 body
 {}
 
+/* FOOTER */
+
+footer #bas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: auto;
+    background: #F2F2F2;
+}
+
+footer ul li
+{
+    list-style-type: none;
+}
+
+footer ul a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer h2
+{
+    padding: 20px 0 0 20px;
+}
+
+footer ul
+{
+    padding: 0 450px 0 20px;
+    line-height: 22px;
+}
