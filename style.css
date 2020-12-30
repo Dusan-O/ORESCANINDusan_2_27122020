@@ -3,9 +3,14 @@ nav
 {
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
+    padding:20px 0 0 25px;
 }
 
+nav img
+{
+    height: 70px;
+    width: 135px;
+}
 nav ul li
 {
     list-style-type: none;
@@ -20,9 +25,21 @@ nav ul a
     padding: 0 38px 0 38px;
 }
 
+nav ul .accomodations_btn a:hover
+{
+    border-top: 1px solid #3D00FF;
+    padding-top: 38px;
+}
+
 nav ul .activities_btn a
 {
     color: black;
+}
+
+nav ul .activities_btn a:hover
+{
+    border-top: 1px solid black;
+    padding-top: 38px;
 }
 
 nav ul .signin a
@@ -31,9 +48,56 @@ nav ul .signin a
     padding-right: 50px;
 }
 
-/* HEADER */
+nav ul .signin a:hover
+{
+    border-top: 1px solid #3D00FF;
+    padding-top: 38px;
+}
 
-/* BODY */
+/* HEADER */
+header
+{
+    padding-left: 25px;
+}
+
+header h2
+{
+    font-weight: normal;
+    line-height: 0px;
+    font-size: 1em;
+}
+
+form
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+
+.bouton_rechercher
+{
+    background: #3D00FF;
+    color: #fff;
+}
+
+.far
+{
+    height: 30px;
+}
+
+/* DIV FILTRE */
+
+.filtres ul li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.filtres .filter 
+{
+    font-weight: bold;
+}
 
 
 /* FOOTER */
@@ -61,11 +125,11 @@ footer ul a
 
 footer h2
 {
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 25px;
 }
 
 footer ul
 {
-    padding: 0 450px 0 20px;
+    padding: 0 450px 0 25px;
     line-height: 22px;
 }
