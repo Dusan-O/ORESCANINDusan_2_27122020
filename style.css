@@ -118,7 +118,7 @@ form
 .hebergements
 {
     width: 65%;
-    height: 600px;
+    height: 750px;
     background: #F2F2F2;
     border: 1px #F2F2F2c solid;
     border-radius: 20px;
@@ -129,6 +129,7 @@ form
     
 }
 
+
 /* ---------------------------------------- */
 
 #main .hebergements .hotels
@@ -136,7 +137,7 @@ form
     width: 25%;
     height: 210px;
     background: #fff;
-    margin: 5px 5px;
+    margin: 75px 5px;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -153,11 +154,10 @@ form
 
 .picture
 {
-    width: 250px;
-    height:150px;
+    width: 96%;
+    height: 150px;
     overflow: hidden;
-    margin-top: 4px;
-    margin-left: 4px;
+    margin:4px auto;
     padding: auto;
     border: 1px solid #fff;
     border-radius: 20px 20px 0 0;
@@ -172,37 +172,37 @@ form
     
 }
 
+#main a
+{
+    text-decoration: none;
+    display:flex ;
+    flex-direction: column;
+}
+
 .nom_de_lhotel 
 {
     font-weight: bold;
     text-align: center;
-    padding-left:15px;
+    padding-left: 15px;
+
 }
 
 .prix
 {
     padding-left: 15px;
+    font-size: 0.9em;
 }
 
-/*
-.picture
+.price
 {
-    width: 250px;
-    height: 150px;
-    overflow: hidden;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    padding: 4px;
-    margin-top: 20px;
-
+    font-weight: bold;
 }
-*/
 /* ---------------------------------------- */
 
 .populaires
 {
     width: 30%;
-    height: 600px;
+    height: 750px;
     background: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 20px;
