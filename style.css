@@ -135,7 +135,7 @@ form
 #main .hebergements .hotels
 {
     width: 25%;
-    height: 210px;
+    height: 230px;
     background: #fff;
     margin: 75px 5px;
     display: flex;
@@ -196,6 +196,28 @@ form
 .price
 {
     font-weight: bold;
+}
+
+.stars1
+{
+    padding-left: 15px;
+    color: #3D00FF;
+    font-size: 0.8em;
+
+}
+
+.stars
+{
+    color:#3D00FF;
+    font-size: 0.8em;
+}
+
+.empty_star
+{
+    color: #D8D8D8;
+    font-size: 0.8em;
+
+
 }
 /* ---------------------------------------- */
 
