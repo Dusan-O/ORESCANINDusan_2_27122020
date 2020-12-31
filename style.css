@@ -118,17 +118,17 @@ form
 .hebergements
 {
     width: 65%;
-    height: 750px;
+    height: 700px;
     background: #F2F2F2;
     border: 1px #F2F2F2c solid;
     border-radius: 20px;
     margin-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    
+    align-content: space-around;
 }
-
 
 /* ---------------------------------------- */
 
@@ -137,14 +137,16 @@ form
     width: 25%;
     height: 230px;
     background: #fff;
-    margin: 75px 5px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     border: 1px solid #F2F2F2;
     border-radius: 20px 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: auto;
 }
+
 
 #main .hebergements .hotels:hover
 {
@@ -161,6 +163,7 @@ form
     padding: auto;
     border: 1px solid #fff;
     border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
 }
 
 .texte
@@ -224,11 +227,69 @@ form
 .populaires
 {
     width: 30%;
-    height: 750px;
+    height: 700px;
     background: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 20px;
     margin-right: 30px;
+    padding-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: cente
+    align-items: center;
+}
+
+.populaires h2
+{
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+#main .populaires .hotels1 
+{
+    width: 80%;
+    height: 25%;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 20px 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main .populaires .hotels1 a
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.picture1
+{
+    width: 185px;
+    height:165px;
+    background-color: brown;
+    border: 5px solid #fff;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+}
+
+.texte1
+{
+    width: 230px;
+    height: 165px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.populaires .texte1 .etoiles
+{
+    display: inline;
 }
 
 /* Activites à Marseille */
