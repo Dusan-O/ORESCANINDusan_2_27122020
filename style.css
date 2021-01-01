@@ -105,7 +105,7 @@ form
     font-weight: bold;
 }
 
-/* Hebergements */
+/* HEBERGEMENTS MAIN */
 
 #main
 {
@@ -129,8 +129,6 @@ form
     flex-wrap: wrap;
     align-content: space-around;
 }
-
-/* ---------------------------------------- */
 
 #main .hebergements .hotels
 {
@@ -201,17 +199,16 @@ form
     font-weight: bold;
 }
 
+.stars
+{
+    color:#3D00FF;
+    font-size: 0.8em;
+}
+
 .stars1
 {
     padding-left: 15px;
     color: #3D00FF;
-    font-size: 0.8em;
-
-}
-
-.stars
-{
-    color:#3D00FF;
     font-size: 0.8em;
 }
 
@@ -222,7 +219,8 @@ form
 
 
 }
-/* ---------------------------------------- */
+
+/* LES PLUS POPULAIRES */
 
 .populaires
 {
@@ -253,6 +251,7 @@ form
 {
     margin-left: 143px;
 }
+
 #main .populaires .hotels1 
 {
     width: 80%;
@@ -266,7 +265,6 @@ form
     flex-direction: row;
     flex-wrap: wrap;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
 }
 
 #main .populaires .hotels1:hover
@@ -301,7 +299,6 @@ form
     border-radius: 0 20px 20px 0;
     display: flex;
     flex-direction: column;
-    
 }
 
 .populaires .texte1 .etoiles
@@ -309,15 +306,14 @@ form
     display: inline;
 }
 
-/* Activites à Marseille */
+/* ACTIVITES A MARSEILLE */
 
 .activites_marseille
 {
     margin-left: 40px;
     padding-top: 35px;
-
-
 }
+
 .activites
 {
     width: 95%;
@@ -325,10 +321,8 @@ form
     background:#fff;
     margin-left: 20px;
     margin-bottom: 50px;
-
     padding-right: 35px;
     border: 1px solid #fff;
-
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -344,9 +338,7 @@ form
     overflow: hidden;
     border: 4px solid #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
     border-radius: 20px 20px;
-
 }
 
 .activites .hotels2:hover
@@ -359,42 +351,78 @@ form
 {
     height: 355px;
     width: auto;
-    background-color: red;
-    border: 1px solid black;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
     display: flex;
+    flex-direction:column ;
 }
 
-.activites .hotels2. .texte2
+.activites .hotels3 .picture5
 {
-    height: 30px;
+    border: 3px solid black;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+.activites .hotels2 .picture2 .picture5
+{
+    border: 5px solid black;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+
+.activites .hotels3 .picture5 .texte2
+{
+    height: 40px;
     width: auto;
-    background-color: black;
-    flex-direction: column;
-
+    border: 3px solid black;
+    border-radius: 0 0 20px 20px
+    padding-bottom: 10px;
 }
 
-.hotels2 .picture2 .picture3
+.activites .hotels2 .texte3
 {
-    height:75px;
+    border: 1px solid black;
+    height: 80px;
+    width: auto;
+}
+
+.activites .hotels2. .picture2 .texte2
+{
+    height: 40px;
+    width: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+/*
+.activites .hotels2 .picture2 .picture3
+{
+    height: 150px;
+    width: auto;
+    background-color: darkblue;
+    overflow: hidden;
+}
+
+.activites .hotels2 .picture2 .picture4
+{
+    height: 150px;
     width: auto;
     background-color: darkblue;
     flex-direction: column;
-
-    
-    
-   
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    margin-top: 25px;
 }
 
-.hotels2 .picture2 .picture4
-{
-    height: 75px;
-    width: auto;
-    background-color: darkblue;
-    flex-direction: column;
-
-}
+*/
 /*
 .hotels2 .picture2 .texte3
 {
