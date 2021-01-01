@@ -61,10 +61,8 @@ nav ul .signin a:hover
 }
 
 //* HEADER */
-header
-{
-    padding-left: 25px;
-}
+
+
 
 header h2
 {
@@ -78,7 +76,6 @@ form
     border: 1px solid black;
     border-radius: 5px;
     display: inline-block;
-    
 }
 
 .bouton_rechercher
@@ -92,9 +89,15 @@ form
     height: 30px;
 }
 
+.searchbar
+{
+    border: 1px solid black;
+}
+
+
 /* DIV FILTRE */
 
-.filtres ul li
+.filtres ul li 
 {
     list-style-type: none;
     display: inline-block;
@@ -105,6 +108,43 @@ form
     font-weight: bold;
 }
 
+.filtre1
+{
+    border: 3px solid #D8D8D8;
+    padding: 10px;
+    border-radius: 45px 45px;
+    margin: 0 20px;
+}
+
+li 
+{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.filtres .fas
+{
+    border: 2px solid #DBE7FF;
+    border-radius: 45px 45px;
+    padding: 12px;
+    background-color: #DBE7FF;
+    color: #3D00FF;
+    margin-left: -13px;
+    margin-right: 10px;
+}
+
+.filtres a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.filter
+{
+    font-size: ;
+}
 /* HEBERGEMENTS MAIN */
 
 #main
@@ -129,6 +169,7 @@ form
     flex-wrap: wrap;
     align-content: space-around;
 }
+
 
 #main .hebergements .hotels
 {
@@ -357,6 +398,53 @@ form
     flex-direction:column ;
 }
 
+.activites .hotels3
+{
+    height: 400px;
+    width: 18%;
+}
+
+.activites .hotels3 .picture2
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: blue;
+    border: 5px solid black;
+    height: 175px;
+    width: auto;
+}
+
+.activites .hotels3 .picture2 .picture5 .picture3
+{
+    height: 150px;
+    width: auto;
+
+}
+
+.activites .hotels3 .picture2 .picture5 .texte2
+{
+
+    height: 30px;
+    width: auto;
+    border: 1px solid black;
+    background-color: darkgreen;
+}
+
+
+.activites .hotels3 .picture2 .picture6 .picture7
+{
+    height: 90px;
+    width: auto;
+    background-color: yellow;
+    border: 5px solid yellow;
+}
+
+
+
+
+/*
 .activites .hotels3 .picture5
 {
     border: 3px solid black;
@@ -399,7 +487,7 @@ form
     background-color: #fff;
     border: 1px solid black;
 }
-
+*/
 
 /*
 .activites .hotels2 .picture2 .picture3

@@ -26,22 +26,28 @@
         <h1>Trouvez votre hébérgement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
 
-        <form>
-        <i class="fas fa-map-marker-alt"></i><input type="text" placeholder="Marseille, France" size="16"><input class="bouton_rechercher" type="submit" value="Rechercher">
 
-        </form>
+        <div class="searchbar" aria-label="Barre de recherche">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <label for="search"></label><input id="search" placeholder="Marseille, France" type="text"
+                                               aria-label="Écrivez votre recherche ici">
+            <i class="fas fa-search" aria-label="Rechercher" aria-hidden="true"></i>
+            <a class="searchbar-text" href="#">Rechercher</a>
+        </div>
 
-        <p><i class="far fa-info-circle">Plus de 500 logements sont disponibles dans cette ville</i></p>
+
 
         <div class="filtres">
             <ul>
                 <li class="filter">Filtres</li>
-                <li>Economique</li>
-                <li>Familial</li>
-                <li>Romantique</li>
-                <li>Animaux autorisés</li>
+                <li><a href="#"><span class="filtre1"><i class="fas fa-money-bill-wave"></i>Economique</a></span></li>
+                <li><a href="#"><span class="filtre1"><i class="fas fa-child"></i>Familial</a></span></li>
+                <li><a href="#"><span class="filtre1"><i class="fas fa-heart"></i>Romantique</a></span></li>
+                <li><a href="#"><span class="filtre1"><i class="fas fa-dog"></i>Animaux autorisés</a></span></li>
             </ul>
         </div>
+
+        <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 
     </header>
 
@@ -49,7 +55,7 @@
         <div id="main">
 
              <div class="hebergements"> 
-           <!-- <h2>Hébérgements à Marseille</h2>   -->
+           <!-- <h2>Hébérgements à Marseille</h2> -->
 
                 <div class="hotels">
                     <a href="#">
@@ -258,36 +264,31 @@
                 </a>
             </div> 
 
-            <div class="hotels2">
+            <div class="hotels3">
                 <a href="#">
                     <div class="picture2">
                         <div class="picture5"> 
                             <div class="picture3">
-                                <img src= "images/activites/4_small/2.jpg" alt="Suite familliale avec King Size bed")> 
-
+                          <!--       <img src= "images/activites/4_small/2.jpg" alt="Suite familliale avec King Size bed")> -->
                             </div>
-                    
+
                             <div class="texte2">
-                            <p class="description">Fort de Pomégues</p>
-                        </div>
-                    </div>
-
-
-                        <div class="picture4">
-                            <img src= "images/activites/4_small/3.jpg" alt="Suite familliale avec King Size bed")> 
-
+                                <p class="description">Fort de Pomégues</p>
+                            </div>
 
                         </div>
-
-                   <!--  <img src= "images/hebergements/4_small/2.1.jpg" alt="Suite familliale avec King Size bed")>  -->
-                    </div>
-
-                    <div class="texte2">
-                      
-                        <span class="nom_de_lhotel">Hôtel le soleil du matin</span> 
                         
-                        </span>
-                      
+                    
+
+                        <div class="picture6">
+                            <div class="picture7">
+                         <!--      <img src= "images/activites/4_small/3.jpg" alt="Suite familliale avec King Size bed")> -->
+                            </div>
+
+                            <div class="texte2">  
+                                <p class="description">Hôtel le soleil du matin</p>  
+                            </div>
+                        </div>
                     </div>
                 </a>
             </div> 
@@ -329,29 +330,29 @@
     <footer>
         <div id="bas">
             <div class="a_propos">
-            <h2>A propos</h2>
-                <ul>
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales de vente</a></li>
-                    <li><a href="#">Données et confidentialité</a></li>
-                </ul>
-        </div>
+                <h2>A propos</h2>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+            </div>
 
-        <div class="nos_hebergements">
-            <h2>Nos hébérgements</h2>
-                <ul>
-                    <li><a href="#">Charte qualité</a></li>
-                    <li><a href="#">Soumettre votre hôtel</a></li>
-                </ul>
-        </div>
+            <div class="nos_hebergements">
+                <h2>Nos hébérgements</h2>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soumettre votre hôtel</a></li>
+                    </ul>
+            </div>
 
-        <div class="assistance">
-            <h2>Assistance</h2>
-                <ul>
-                    <li><a href="#">Centre d'aide</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
-        </div>
+            <div class="assistance">
+                <h2>Assistance</h2>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+            </div>
 
 
 
