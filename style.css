@@ -310,6 +310,14 @@ form
 }
 
 /* Activites à Marseille */
+
+.activites_marseille
+{
+    margin-left: 40px;
+    padding-top: 35px;
+
+
+}
 .activites
 {
     width: 95%;
@@ -317,7 +325,7 @@ form
     background:#fff;
     margin-left: 20px;
     margin-bottom: 50px;
-    margin-top: 50px;
+
     padding-right: 35px;
     border: 1px solid #fff;
 
