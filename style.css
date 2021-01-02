@@ -64,11 +64,10 @@ nav ul .signin a:hover
 
 
 
-header h2
+header .p
 {
-    font-weight: normal;
-    line-height: 0px;
-    font-size: 1em;
+    line-height: -5px;
+    font-size: 2em;
 }
 
 form
@@ -88,13 +87,54 @@ form
 {
     height: 30px;
 }
-
+/*
 .searchbar
 {
-    border: 1px solid black;
+    border: 3px solid #D8D8D8;
+    width: 531px;
+
+}
+*/
+.searchbar .fas
+{
+    border-radius: 45px 0 0 45px;
+    margin-right: -5px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+    padding-right:16px ;
+    font-size: 1.3em;
+    background: #F2F2F2;
 }
 
+input
+{
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000;
+    text-align: justify;
+    padding-left: 15px;
+    border-left: -5px;
+    border: 2px solid #F2F2F2;
+}
 
+.searchbar-text
+{
+    border: 1px solid #3D00FF;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    padding-top: 20px;
+    margin-left:-6px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #3D00FF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
 /* DIV FILTRE */
 
 .filtres ul li 
