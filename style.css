@@ -107,6 +107,11 @@ form
     background: #F2F2F2;
 }
 
+header filtre1:hover
+{
+    font-size: 3em;
+}
+
 input
 {
     height: 50px;
@@ -156,7 +161,7 @@ input
     margin: 0 20px;
 }
 
-li 
+.filtres ul li 
 {
     font-size: 1.5em;
     text-align: center;
@@ -442,38 +447,96 @@ li
 {
     height: 400px;
     width: 18%;
+    padding-bottom: 50px;
 }
 
-.activites .hotels3 .picture2
+.activites .hotels3 .picture5
 {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    justify-content: space-between;
-    background-color: blue;
-    border: 5px solid black;
-    height: 175px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 190px;
     width: auto;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    overflow: hidden;
 }
 
-.activites .hotels3 .picture2 .picture5 .picture3
+.activites .hotels3 .picture5:hover
 {
-    height: 150px;
-    width: auto;
-
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 1s;
 }
 
-.activites .hotels3 .picture2 .picture5 .texte2
+.activites .hotels3 .picture5 .picture3
 {
-
-    height: 30px;
+    height: 140px;
     width: auto;
-    border: 1px solid black;
-    background-color: darkgreen;
+    border-radius: 20px 20px 0 0;
+
 }
 
+.activites .hotels3 .picture5 .texte2
+{
+    height: 45px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
 
-.activites .hotels3 .picture2 .picture6 .picture7
+.activites .description 
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.activites a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.hotels3 .picture6
+{
+    height: 160px;
+    width: auto;
+    border: 0px solid black;
+    margin-top: 45px;
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+
+}
+
+.hotels3 .picture6:hover
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 1s;
+}
+  
+.picture6 .picture7
+{
+    height: 110px;
+    width: auto;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.picture6 .texte2
+{
+    height: 45px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    border: 30px;
+}
+/*
+.activites .hotels3 .picture6 .picture7
 {
     height: 90px;
     width: auto;
@@ -481,7 +544,7 @@ li
     border: 5px solid yellow;
 }
 
-
+*/
 
 
 /*
@@ -508,7 +571,7 @@ li
     width: auto;
     border: 3px solid black;
     border-radius: 0 0 20px 20px
-    padding-bottom: 10px;
+    padding-bottom: 2;
 }
 
 .activites .hotels2 .texte3
@@ -594,3 +657,23 @@ footer ul
     padding: 0 450px 0 25px;
     line-height: 22px;
 }
+
+/*------------------------------------------------Entrez ici votre code pour un format d'Ã©cran------------------------------------------------
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 1388px)
+
+/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur tablette
+}
+
+
+
+@media(max-width: 767px)
+{
+Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur smartphone
+
+
+*/
