@@ -422,7 +422,6 @@ input
     background-color: #fff;
     margin-left: 20px;
     overflow: hidden;
-    border: 4px solid #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 20px 20px;
 }
@@ -535,95 +534,9 @@ input
     border-radius: 0 0 20px 20px;
     border: 30px;
 }
-/*
-.activites .hotels3 .picture6 .picture7
-{
-    height: 90px;
-    width: auto;
-    background-color: yellow;
-    border: 5px solid yellow;
-}
-
-*/
+    
 
 
-/*
-.activites .hotels3 .picture5
-{
-    border: 3px solid black;
-    border-radius: 20px 20px;
-    overflow: hidden;
-    margin-bottom: 25px;
-}
-
-
-.activites .hotels2 .picture2 .picture5
-{
-    border: 5px solid black;
-    border-radius: 20px 20px 0 0;
-    overflow: hidden;
-}
-
-
-.activites .hotels3 .picture5 .texte2
-{
-    height: 40px;
-    width: auto;
-    border: 3px solid black;
-    border-radius: 0 0 20px 20px
-    padding-bottom: 2;
-}
-
-.activites .hotels2 .texte3
-{
-    border: 1px solid black;
-    height: 80px;
-    width: auto;
-}
-
-.activites .hotels2. .picture2 .texte2
-{
-    height: 40px;
-    width: auto;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color: #fff;
-    border: 1px solid black;
-}
-*/
-
-/*
-.activites .hotels2 .picture2 .picture3
-{
-    height: 150px;
-    width: auto;
-    background-color: darkblue;
-    overflow: hidden;
-}
-
-.activites .hotels2 .picture2 .picture4
-{
-    height: 150px;
-    width: auto;
-    background-color: darkblue;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 20px 20px 0 0;
-    overflow: hidden;
-    margin-top: 25px;
-}
-
-*/
-/*
-.hotels2 .picture2 .texte3
-{
-    height: 25px;
-    width: auto;
-    background-color: #fff;
-    flex-direction:column;
-}
-
-*/
 /* FOOTER */
 
 footer #bas
