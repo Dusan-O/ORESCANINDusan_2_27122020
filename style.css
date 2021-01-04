@@ -4,6 +4,13 @@ body
     font-family: "Raleway", "sans serif";
 }
 
+#bloc_page
+{
+    margin: 0 20px;
+    width: auto;
+    height: auto,
+}
+
 /* NAV */
 nav
 {
@@ -12,11 +19,14 @@ nav
     padding:20px 0 0 25px;
 }
 
+/* logo */
 nav img
 {
     height: 70px;
     width: 135px;
 }
+
+/* barre de navigation */
 nav ul li
 {
     list-style-type: none;
@@ -28,7 +38,7 @@ nav ul a
 {
     text-decoration: none;
     font-size: 1.2em;
-    padding: 0 38px 0 38px;
+    padding: 0 38px;
 }
 
 nav ul .accomodations_btn a:hover
@@ -60,9 +70,8 @@ nav ul .signin a:hover
     padding-top: 38px;
 }
 
-//* HEADER */
 
-
+/* HEADER */
 
 header .p
 {
@@ -87,6 +96,9 @@ form
 {
     height: 30px;
 }
+
+
+/* barre de recherche */
 /*
 .searchbar
 {
@@ -98,11 +110,8 @@ form
 .searchbar .fas
 {
     border-radius: 45px 0 0 45px;
-    margin-right: -5px;
-    padding-top: 18px;
-    padding-bottom: 17px;
-    padding-left: 17px;
-    padding-right:16px ;
+    margin-right: -5px;;
+    padding: 18px 16px 17px 17px;
     font-size: 1.3em;
     background: #F2F2F2;
 }
@@ -129,17 +138,15 @@ input
     border: 1px solid #3D00FF;
     border-radius: 0 25px 25px 0;
     height: 50px;
-    padding-top: 20px;
+    padding: 20px 15px 15px 15px;
     margin-left:-6px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     background: #3D00FF;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
 }
+
 /* DIV FILTRE */
 
 .filtres ul li 
@@ -148,9 +155,16 @@ input
     display: inline-block;
 }
 
+.filtres ul
+{
+    padding-left: 0;
+}
+
 .filtres .filter 
 {
     font-weight: bold;
+    padding-left: 0;
+    padding-top: 40px;
 }
 
 .filtre1
@@ -186,28 +200,28 @@ input
     color: black;
 }
 
-.filter
-{
-    font-size: ;
-}
+
 /* HEBERGEMENTS MAIN */
 
 #main
 {
-    
     display: flex;
     justify-content: space-between;
-   
 }
 
-.hebergements
+.lieu
 {
-    width: 65%;
+    font-size: 1em;
+    padding: 30px 0;
+}
+
+#hebergements
+{
+    width: 70%; 
     height: 700px;
     background: #F2F2F2;
-    border: 1px #F2F2F2c solid;
+    border: 1px #F2F2F2 solid;
     border-radius: 20px;
-    margin-left: 20px;
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
@@ -216,7 +230,7 @@ input
 }
 
 
-#main .hebergements .hotels
+#main #hebergements .hotels
 {
     width: 25%;
     height: 230px;
@@ -232,7 +246,7 @@ input
 }
 
 
-#main .hebergements .hotels:hover
+#main #hebergements .hotels:hover
 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 1s;
@@ -252,11 +266,9 @@ input
 
 .texte
 {
-    width: 250px;
-    height: 40px;
-    background:#fff;
+    width: auto;
+    height: auto;
     color: black;
-    
 }
 
 #main a
@@ -266,18 +278,17 @@ input
     flex-direction: column;
 }
 
-.nom_de_lhotel 
+#hebergements .nom_de_lhotel 
 {
     font-weight: bold;
     text-align: center;
     padding-left: 15px;
-
 }
 
-.prix
+#hebergements .prix
 {
-    padding-left: 15px;
     font-size: 0.9em;
+    padding-left: 15px;
 }
 
 .price
@@ -302,54 +313,43 @@ input
 {
     color: #D8D8D8;
     font-size: 0.8em;
-
-
 }
 
 /* LES PLUS POPULAIRES */
 
 .populaires
 {
-    width: 30%;
+    width: 35%;
     height: 700px;
     background: #F2F2F2;
     border: 1px #F2F2F2 solid;
     border-radius: 20px;
-    margin-right: 30px;
     padding-top: 50px;
     margin-left: 20px;
     padding-bottom: 45px;
     display: flex;
     flex-direction: column;
-    justify-content: cente
+    justify-content: center;
     align-items: center;
 }
 
-.populaires h2
+.lespluspopulaires
 {
-    margin-left: 60px;
-    margin-bottom: 10px;
-    margin-top:15px;
-    font-size: 1.5em;
-}
-
-.graph
-{
-    margin-left: 143px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
 }
 
 #main .populaires .hotels1 
 {
-    width: 80%;
+    width: auto;
     height: 25%;
     background: #fff;
     border: 1px solid #fff;
     border-radius: 20px 20px;
     margin-bottom: 35px;
-    margin-left: 10%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -368,9 +368,8 @@ input
 
 .picture1
 {
-    width: 185px;
+    width: 150px;
     height:165px;
-    background-color: brown;
     border: 5px solid #fff;
     border-radius: 20px 0 0 20px;
     overflow: hidden;
@@ -387,27 +386,38 @@ input
     flex-direction: column;
 }
 
+.populaires .nom_de_lhotel
+{   
+    padding-left: 10px;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.populaires .prix
+{
+    color: #000;
+    padding-left: 10px;
+}
+
 .populaires .texte1 .etoiles
 {
-    display: inline;
+    display: inline-block;
 }
 
 /* ACTIVITES A MARSEILLE */
 
 .activites_marseille
 {
-    margin-left: 40px;
     padding-top: 35px;
 }
 
-.activites
+#activites
 {
-    width: 95%;
+    width: 100%;
     height: 500px;
     background:#fff;
-    margin-left: 20px;
     margin-bottom: 50px;
-    padding-right: 35px;
     border: 1px solid #fff;
     border-radius: 20px;
     display: flex;
@@ -415,75 +425,76 @@ input
     align-items: center;
 }
 
-.activites .hotels2
+#activites .hotels2
 {
-    height: 400px;
-    width: 18%;
+    height: 500px;
+    width: 22%;
     background-color: #fff;
-    margin-left: 20px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 20px 20px;
 }
 
-.activites .hotels2:hover
+#activites .hotels2:hover
 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 1s;
 }
 
-.activites .hotels2 .picture2
+#activites .hotels2 .picture2
 {
-    height: 355px;
+    height: 450px;
     width: auto;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
     display: flex;
     flex-direction:column ;
+    margin-bottom: 10px;
 }
 
-.activites .hotels3
+#activites .hotels3
 {
-    height: 400px;
-    width: 18%;
+    height: 500px;
+    width: 23%;
     padding-bottom: 50px;
 }
 
-.activites .hotels3 .picture5
+#activites .hotels3 .picture5
 {
     display: flex;
     flex-direction: column;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    height: 190px;
+    height: 240px;
     width: auto;
     border-radius: 20px 20px;
     margin-top: 30px;
     overflow: hidden;
 }
 
-.activites .hotels3 .picture5:hover
+#activites .hotels3 .picture5:hover
 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 1s;
 }
 
-.activites .hotels3 .picture5 .picture3
+#activites .hotels3 .picture5 .picture3
 {
-    height: 140px;
+    height: 190px;
     width: auto;
     border-radius: 20px 20px 0 0;
+    overflow: hidden;
 
 }
 
-.activites .hotels3 .picture5 .texte2
+#activites .hotels3 .picture5 .texte2
 {
-    height: 45px;
+    height: 10px;
     width: auto;
     background-color: #fff;
     border-radius: 0 0 20px 20px;
 }
 
-.activites .description 
+#activites .description 
 {
     text-decoration: none;
     color: black;
@@ -491,7 +502,7 @@ input
     padding-bottom: 5px;
 }
 
-.activites a 
+#activites a 
 {
     text-decoration: none;
     font-weight: bold;
@@ -500,16 +511,15 @@ input
 
 .hotels3 .picture6
 {
-    height: 160px;
+    height: 200px;
     width: auto;
     border: 0px solid black;
-    margin-top: 45px;
+    margin-top: 55px;
     border-radius: 20px 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     overflow: hidden;
-
 }
 
 .hotels3 .picture6:hover
@@ -520,7 +530,7 @@ input
   
 .picture6 .picture7
 {
-    height: 110px;
+    height: 190px;
     width: auto;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
@@ -534,17 +544,44 @@ input
     border-radius: 0 0 20px 20px;
     border: 30px;
 }
+
+.hotels3 .picture8
+{
+    height: 230px;
+    width: auto;
+    border: 0px solid black;
+    margin-top: 30px;
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+}
+
+.hotels3 .picture8:hover
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 1s;
+}
     
+#activites .hotels3 .picture9
+{
+    display: flex;
+    flex-direction: column;
+    height: 195px;
+    width: auto;
+    border-radius: 20px 20px 0 0px;
+    overflow: hidden;
+}
 
 
 /* FOOTER */
 
-footer #bas
+#bas
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 200px;
+    height: auto;
     width: auto;
     background: #F2F2F2;
 }
@@ -552,6 +589,7 @@ footer #bas
 footer ul li
 {
     list-style-type: none;
+    font-size: 1em;
 }
 
 footer ul a
@@ -563,30 +601,29 @@ footer ul a
 footer h2
 {
     padding: 20px 0 0 25px;
+    font-size: 1.1em;
 }
 
 footer ul
 {
-    padding: 0 450px 0 25px;
+    padding: 0 300px 0 25px;
     line-height: 22px;
 }
 
-/*------------------------------------------------Entrez ici votre code pour un format d'Ã©cran------------------------------------------------
 
 
 
 
+
+/* Tablette */
 
 @media(min-width: 768px) and (max-width: 1388px)
 
-/* Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur tablette
-}
 
 
+
+/* Smartphone */
 
 @media(max-width: 767px)
-{
-Entrez ici vos propriÃ©tÃ©s CSS lorsque l'utilisateur est sur smartphone
 
 
-*/
