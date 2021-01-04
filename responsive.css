@@ -1,12 +1,29 @@
 /* Tablette */
 @media(min-width: 768px) and (max-width: 1388px)
 {
+    nav ul li 
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    
+    .filtres ul li 
+    {
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .filtres
+    {
+        border: 10px;
+    }
+
     #main
     {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
-
     }
 
     #bloc_page
@@ -19,25 +36,17 @@
     #hebergements
     {
         width: auto;
-        height: auto;
+        height: 550px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: space-around ;
-        justify-content: space-around;
-        margin-bottom: 20px;
-        box-sizing: border-box;
-
     }
+
 
     .hotels
     {
         width: 100%;
         height: auto;
- 
-        align-content:space-around ;
-        justify-content: space-around;
-        flex-wrap: wrap;
     }
 
     .populaires
@@ -47,15 +56,59 @@
         margin-bottom: 10px;
         box-sizing: border-box;
         margin-left: 0;
-
     }
 
     #activites
     {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
     }
+
+    #activites hotels2, hotels3
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    #activites img
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    #activites .texte2
+    {
+        height: auto;
+        width: auto;
+    }
+
+    #activites .description
+    {
+        font-size: 0.9em;
+        text-align: left;
+        padding: auto;
+    }
+
+    #bas
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    footer ul li 
+    {
+        font-size: 0.9em;
+    }
+
+    footer ul 
+    {
+        padding-right: 30%;
+    }
+
+
+    
 }
 
 
