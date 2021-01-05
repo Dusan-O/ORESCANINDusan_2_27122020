@@ -192,6 +192,10 @@ input
     margin-right: 10px;
 }
 
+.filtres .fas:hover
+{
+    font-size: 2em;
+}
 .filtres a
 {
     text-decoration: none;
@@ -367,8 +371,20 @@ input
 
 .lespluspopulaires
 {
+    width: 100%;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.lespluspopulaires h2, .fas
+{
+    flex-direction: row;
+}
+
+
+
 
 #main .populaires .hotels1 
 {
