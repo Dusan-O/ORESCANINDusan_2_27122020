@@ -36,13 +36,24 @@
     #hebergements
     {
         width: auto;
-        height: 550px;
+        height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
+    .titre_hebergements_a_marseille
+    {
+        padding: 30px;
+        text-align: center;
+    }
 
+    .afficher_plus
+    {
+        padding: 20px;
+        text-align: right;
+    }
+    
     .hotels
     {
         width: 100%;
@@ -65,13 +76,7 @@
         width: 100%;
         height: auto;
     }
-
-    #activites hotels2, hotels3
-    {
-        height: 100%;
-        width: 100%;
-    }
-
+    
     #activites img
     {
         height: 100%;
@@ -115,18 +120,28 @@
 
 /* Smartphone */
 
-@media(max-width: 767px)
-{
+@media(min-width: 400px) and (max-width: 767px)
+{   
+ 
+
+    #bloc_page
+    {
+        max-width: 767px;
+        height: auto;
+    }
+
     #main
     {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
+        max-width: 767px;
+        height: auto;
     }
 
     #hebergements
     {
-        width: auto;
+        max-width: 767px;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -134,11 +149,12 @@
         align-content: space-around ;
         justify-content: space-around;
         margin-bottom: 20px;
+    
     }
 
     .populaires
     {
-        width: auto;
+        max-width: 767px;
         height: auto;
         background: #F2F2F2;
     }

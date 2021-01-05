@@ -213,6 +213,32 @@ input
     padding: 30px 0;
 }
 
+
+.titre_hebergements_a_marseille
+{
+    height: auto;
+    width: 100%;
+    padding-left: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.afficher_plus
+{
+    height: auto;
+    width: 100%;
+    padding-left: 40px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.afficher_plus a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
 #hebergements
 {
     width: 70%; 
