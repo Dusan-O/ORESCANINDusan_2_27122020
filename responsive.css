@@ -109,9 +109,6 @@
     {
         padding-right: 30%;
     }
-
-   
-    
 }
 
 
@@ -121,23 +118,20 @@
 @media(max-width: 767px)
 {   
  
-    *
-    {
-        padding-left: 0;
-    }
+   
     #bloc_page
     {
         max-width: 100%;
         height: auto;
     }
 
-    nav ul 
     
     .signin
     {
         position: relative;
         top: 15px;
-        right: 0px;
+        right: -8px;
+        padding-right: 0;
     }
 
     .hebergements_activites
@@ -145,69 +139,100 @@
         position: absolute;
         display: flex;
         top: 110px;
-        left: 27px;
+        left: 30px;
         align-content: center;
         justify-content:center;
     }
     
     nav ul .accomodations_btn
     {
-        border: 3px solid black;
-        font-weight: bold;
+        border-bottom: 3px solid #3D00FF;
+        padding-bottom:5px;
+        padding-right: 0;
+        border-right: 0;;
     }
 
     nav ul .activities_btn
     {
-        border: 1px solid black;
+        border-bottom:1px solid black;
+        padding-bottom:5px;
+        padding-right: -10px;
+
+
     }
     header h1
     {
-        font-size: 1.4em;
-        padding-top:35px;
+        font-size: 1.3em;
+        padding-top:65px;
     }
-
+    header p 
+    {
+        font-size: 1em;
+        padding-bottom: 40px;
+    }
     .searchbar
     {
         display: flex;
-        justify-content: center;
+        justify-content: justify;
+
     }
 
     .searchbar .fas
     {
     border-radius: 45px 0 0 45px;
-    font-size: 0.7em;
+    font-size: 1em;
     background: #F2F2F2;
     overflow: hidden;
-    text-align: center;        
+    text-align: center;
+    padding-bottom: -15px;
+    height: 15px;
     }
 
     input
     {
-    height: 45px;
+    height: 46px;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #000;
     text-align: justify;
     border: 1px solid #F2F2F2;
     }
-
+    
     .searchbar-text
     {
+    display:none;
     border: 1px solid #3D00FF;
     border-radius: 0 25px 25px 0;
-    height: 11px;
+    height: 15px;
     background: #3D00FF;
     color: #fff;
     text-decoration: none;
     text-align: center;
     font-size: 0.5em;
     }
+    .magnifying_glass 
+    {
+        display:block;
+    }
+
+    .magnifying_glass .fas
+    {
+        background:#3D00FF ;
+        border-radius: 10px 10px;
+        padding-bottom: 30px;
+        text-decoration-color: #fff;
+        font-size: 1em;
+        height: 0.7px;
+    }
+
+
 
     .filtres ul li 
     {
     list-style-type: none;
     display: flex;
-    align-content: space-between;
+    flex-direction: row;
+   
     }
 
     .filtres ul
@@ -220,7 +245,7 @@
     .filtre1
     {  
     border: 1px solid #D8D8D8;
-    padding:10px 10px;
+    padding:10px 10px 10px 0;
     border-radius: 45px 45px;
 
     }
@@ -246,8 +271,7 @@
     background-color: #DBE7FF;
     color: #3D00FF;
     font-size: 0.5em;
-
-}
+    }
 
     #main
     {
@@ -271,14 +295,7 @@
         background: none;
     }
 
-    #main #hebergements .hotels
-    {
-        
-    }
-    #main #hebergements .hotels
-    {
-        
-    }
+
 
     .populaires
     {
