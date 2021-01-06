@@ -41,6 +41,12 @@
         flex-wrap: wrap;
     }
 
+    #hebergements img
+    {
+        object-fit: cover;
+        object-position: center;
+    }
+
     .titre_hebergements_a_marseille
     {
         padding: 30px;
@@ -67,6 +73,12 @@
         margin-left: 0;
     }
 
+    .populaires img 
+    {
+        object-fit: cover;
+        object-position: center;
+    }
+
     #activites
     {
         display: flex;
@@ -79,6 +91,8 @@
     {
         height: 100%;
         width: 100%;
+        object-fit: cover;
+        object-position: center;
     }
 
     #activites .texte2
@@ -232,7 +246,12 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-   
+    }
+
+    span li 
+    {
+        display: flex;
+        flex-direction: row;
     }
 
     .filtres ul
