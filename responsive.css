@@ -163,7 +163,7 @@
     }
 
     .searchbar-text
-{
+    {
     border: 1px solid #3D00FF;
     border-radius: 0 25px 25px 0;
     height: 11px;
@@ -172,9 +172,53 @@
     text-decoration: none;
     text-align: center;
     font-size: 0.5em;
+    }
+
+    .filtres ul li 
+{
+    list-style-type: none;
+    display: flex;
+    align-content: space-between;
+}
+
+.filtres ul
+{
+    margin-left: 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.filtre1
+{
+    border: 1px solid #D8D8D8;
+    padding:10px 10px;
+    border-radius: 45px 45px;
 
 }
 
+.filtres ul li 
+{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+.filtres a 
+{
+    border-left: 0;
+};
+
+.filtres .fas
+{
+    border: 1px solid #DBE7FF;
+    border-radius: 45px 45px;
+    padding: 13px 13px;
+    background-color: #DBE7FF;
+    color: #3D00FF;
+    font-size: 0.5em;
+
+}
 
     #main
     {
