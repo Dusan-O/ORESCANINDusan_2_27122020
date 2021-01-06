@@ -147,6 +147,11 @@ input
     text-align: center;
 }
 
+.magnifying_glass
+{
+    display: none;
+}
+
 /* DIV FILTRE */
 
 .filtres ul li 
