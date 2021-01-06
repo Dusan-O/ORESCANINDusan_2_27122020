@@ -149,12 +149,12 @@
     font-size: 0.7em;
     background: #F2F2F2;
     overflow: hidden;
-
+    text-align: center;        
     }
 
     input
     {
-    height: 40px;
+    height: 45px;
     font-weight: bold;
     font-size: 1.1em;
     color: #000;
@@ -166,7 +166,7 @@
 {
     border: 1px solid #3D00FF;
     border-radius: 0 25px 25px 0;
-    height: 9px;
+    height: 11px;
     background: #3D00FF;
     color: #fff;
     text-decoration: none;
