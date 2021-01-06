@@ -132,6 +132,49 @@
         max-width: 100%;
         height: auto;
     }
+    header h1
+    {
+        font-size: 1.4em;
+    }
+
+    .searchbar
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchbar .fas
+    {
+    border-radius: 45px 0 0 45px;
+    font-size: 0.7em;
+    background: #F2F2F2;
+    overflow: hidden;
+
+    }
+
+    input
+    {
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+    text-align: justify;
+    border: 1px solid #F2F2F2;
+    }
+
+    .searchbar-text
+{
+    border: 1px solid #3D00FF;
+    border-radius: 0 25px 25px 0;
+    height: 9px;
+    background: #3D00FF;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.5em;
+
+}
+
 
     #main
     {

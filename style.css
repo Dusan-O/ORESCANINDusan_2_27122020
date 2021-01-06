@@ -114,10 +114,6 @@ form
     background: #F2F2F2;
 }
 
-header filtre1:hover
-{
-    font-size: 3em;
-}
 
 input
 {
@@ -192,10 +188,13 @@ input
     margin-right: 10px;
 }
 
-.filtres .fas:hover
+
+
+header filtre1:hover
 {
-    font-size: 2em;
+    font-size: 3em;
 }
+
 .filtres a
 {
     text-decoration: none;
