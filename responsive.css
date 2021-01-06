@@ -132,9 +132,40 @@
         max-width: 100%;
         height: auto;
     }
+
+    nav ul 
+    
+    .signin
+    {
+        position: relative;
+        top: 15px;
+        right: 0px;
+    }
+
+    .hebergements_activites
+    {
+        position: absolute;
+        display: flex;
+        top: 110px;
+        left: 27px;
+        align-content: center;
+        justify-content:center;
+    }
+    
+    nav ul .accomodations_btn
+    {
+        border: 3px solid black;
+        font-weight: bold;
+    }
+
+    nav ul .activities_btn
+    {
+        border: 1px solid black;
+    }
     header h1
     {
         font-size: 1.4em;
+        padding-top:35px;
     }
 
     .searchbar
@@ -175,42 +206,42 @@
     }
 
     .filtres ul li 
-{
+    {
     list-style-type: none;
     display: flex;
     align-content: space-between;
-}
+    }
 
-.filtres ul
-{
+    .filtres ul
+    {
     margin-left: 0 ;
     display: flex;
     flex-direction: column;
-}
+    }
 
-.filtre1
-{
+    .filtre1
+    {  
     border: 1px solid #D8D8D8;
     padding:10px 10px;
     border-radius: 45px 45px;
 
-}
+    }
 
-.filtres ul li 
-{
+    .filtres ul li 
+    {
     font-size: 1.1em;
     text-align: center;
     padding: 8px;
     
-}
+    }
 
-.filtres a 
-{
+    .filtres a 
+    {
     border-left: 0;
-};
+    };
 
-.filtres .fas
-{
+    .filtres .fas
+    {
     border: 1px solid #DBE7FF;
     border-radius: 45px 45px;
     padding: 13px 13px;
