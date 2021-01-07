@@ -135,9 +135,10 @@
    
     #bloc_page
     {
-        max-width: 100%;
+        width: auto;
         height: auto;
     }
+
 
     
     .signin
@@ -187,8 +188,7 @@
     .searchbar
     {
         display: flex;
-        justify-content: justify;
-
+        align-content: space-around;
     }
 
     .searchbar .fas
@@ -248,7 +248,7 @@
     flex-direction: row;
     }
 
-    span li 
+    .filtres ul span li 
     {
         display: flex;
         flex-direction: row;
@@ -274,7 +274,6 @@
     font-size: 1.1em;
     text-align: center;
     padding: 8px;
-    
     }
 
     .filtres a 
@@ -297,21 +296,9 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
-        max-width: 767px;
-        height: auto;
-    }
-
-    #hebergements
-    {
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: space-around ;
-        justify-content: space-around;
-        margin-bottom: 20px;
-        background: none;
+        border: 0;
     }
 
 
@@ -320,13 +307,70 @@
     {
         width: 100%;
         height: 100%;
-        background: #F2F2F2;
         display: flex;   
         flex-direction: column;
         justify-content: center;
-        align-content: center;
-        padding-left: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: #F2F2F2;
+
     }
+
+    #hebergements
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 20px;
+        border: 0px #F2F2F2 solid;
+        background: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #main #hebergements .hotels
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #main #hebergements .picture 
+    {
+        width: auto;
+        height: 100%;
+
+    }
+
+    #main #hebergements .picture img 
+    {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #main #hebergements .texte
+    {
+        width: auto;
+        height: auto;
+    }
+
+    #main #hebergements .titre_hebergements_a_marseille
+    {
+        padding: 30px;
+    }
+
+    #main #hebergements .afficher_plus
+    {
+        padding: 30px;
+    }
+
+
 
     #activites
     {
@@ -341,7 +385,7 @@
 
     #activites .hotels2
     {
-        width: 90%;
+        width: 100%;
         height: 15%;
         display: flex;
         flex-direction: column;
@@ -349,8 +393,8 @@
     }
     #activites .hotels3
     {
-        width: 90%;
-        height: 20%;
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
 
