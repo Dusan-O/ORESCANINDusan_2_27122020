@@ -317,8 +317,8 @@
     }
     .searchbar
     {
-        display: flex;
-        align-content: space-around;
+    display: flex;
+    align-content: space-around;
     }
 
     .searchbar .fas
@@ -329,6 +329,7 @@
     overflow: hidden;
     text-align: center;
     height: 15px;
+
     }
 
     input
@@ -356,6 +357,7 @@
     .magnifying_glass 
     {
         display:block;
+
     }
 
     .magnifying_glass .fas
@@ -363,7 +365,7 @@
         background:#3D00FF ;
         border-radius: 10px 10px;
         padding-bottom: 30px;
-        text-decoration-color: #fff;
+        color: #fff;
         font-size: 1em;
         height: 0.7px;
     }
@@ -393,10 +395,10 @@
     {
     border: 0px solid;
     border-radius: 45px 45px;
-    padding: 13px 13px;
+    padding: 14px 14px;
     background-color: #DBE7FF;
     color: #3D00FF;
-    font-size: 0.5em;
+    font-size: 1em;
     }
 
     #main
