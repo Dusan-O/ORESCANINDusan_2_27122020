@@ -1,6 +1,71 @@
 /* Tablette */
 @media(min-width: 768px) and (max-width: 1388px)
-{
+{   
+
+    nav ul .accomodations_btn a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    nav ul .activities_btn a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    nav ul .signin a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    header .filtres .fas:hover
+    {
+        font-size: 1em;
+    }
+
+    #main #hebergements .hotels:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #main #hebergements .hotels1:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #activites .hotels2:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #activites .hotels3 .picture5:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    .hotels3 .picture6:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    .hotels3 .picture8:hover
+    {
+        box-shadow:none;
+        transition: none;
+    }
+
+    #main .populaires .hotels1:hover
+    {
+        box-shadow:none;
+        transition: none;
+    }
     nav ul li 
     {
         display: flex;
@@ -131,7 +196,73 @@
 
 @media(max-width: 767px)
 {   
- 
+    
+    nav ul .accomodations_btn a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    nav ul .activities_btn a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    nav ul .signin a:hover
+    {
+        border-top: none;
+        padding-top: none;
+    }
+
+    header .filtres .fas:hover
+    {
+        font-size: 1em;
+    }
+
+    #main #hebergements .hotels:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #main #hebergements .hotels1:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #activites .hotels2:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    #activites .hotels3 .picture5:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    .hotels3 .picture6:hover
+    {
+        box-shadow: none;
+        transition: none;
+    }
+
+    .hotels3 .picture8:hover
+    {
+        box-shadow:none;
+        transition: none;
+    }
+
+    #main .populaires .hotels1:hover
+    {
+        box-shadow:none;
+        transition: none;
+    }
+
+
    
     #bloc_page
     {
@@ -345,7 +476,7 @@
     #main #hebergements .picture 
     {
         width: 100%;
-        height: 60%;
+        height: 55%;
         margin-bottom: 0;
 
     }
@@ -392,9 +523,9 @@
         width: 100%;
         height: 200px;
         display: flex;
-        flex-direction: column;
-        margin: 10px 0;
+        margin-bottom: 5px;
 
+        flex-direction: column;
     }
     #activites .hotels3
     {
@@ -402,6 +533,8 @@
         height: 450px;
         display: flex;
         flex-direction: column;
+        margin-bottom: 5px;
+
     }
 
     #activites .hotels3 a 
@@ -435,12 +568,16 @@
     {
         width: 100%;
         height: 150px;
+        border-bottom: 5px;
+
     }
 
     #activites .hotels3 .picture5
     {
         width: 100%;
         height: 200px;
+        margin-bottom: 5px;
+
         
     }
 
@@ -466,6 +603,8 @@
     {
         width: 100%;
         height: 150px;
+        margin-bottom: 10px;
+
     }
     
     #activites .hotels3 .picture3
@@ -486,12 +625,16 @@
     {
         width: 100%;
         height: 200px;
+        margin-bottom: 10px;
+
     }
 
     #activites .hotels3 .picture9
     {
         width: 100%;
         height: 200px;
+        margin-bottom: 10px;
+
     }
    
     #activites .hotels2 .texte2 .description
