@@ -166,16 +166,11 @@ input
     list-style-type: none;
 }
 
-.filtres ul
-{
-    padding-left: 0;
-}
 
 .filtres .filter 
 {
     font-weight: bold;
     padding-left: 0;
-    padding-top: 40px;
 }
 
 .filtre1
@@ -191,7 +186,6 @@ input
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
-    padding: 0 10px;
 }
 
 .filtres .fas
