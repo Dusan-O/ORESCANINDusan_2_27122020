@@ -450,6 +450,28 @@
         margin-bottom: 20px;
     }
 
+
+
+    .populaires .hotels1
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 60px;
+    }
+
+    .populaires h2
+    {
+        margin-left: 10px;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .populaires h2 .fas 
+    {
+        margin-left: 150px;
+    }
+
     #hebergements
     {
         width: auto;
@@ -612,7 +634,7 @@
         width: 100%;
         height: 10px;
         object-fit: cover;
-        object-position: 50% 50%;
+        object-position: 100% 100%;
     }
 
     #activites .hotels3 .picture5 .texte2
@@ -645,7 +667,7 @@
 
     }
 
-    activites .hotels3 .texte2 .description
+    #activites .hotels3 .texte2 .description
     {
         width:100%;
         height: 25%;
