@@ -154,10 +154,16 @@ input
 
 /* DIV FILTRE */
 
+.filtres 
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
 .filtres ul li 
 {
     list-style-type: none;
-    display: inline-block;
 }
 
 .filtres ul
@@ -177,7 +183,7 @@ input
     border: 3px solid #D8D8D8;
     padding: 10px;
     border-radius: 45px 45px;
-    margin: 0 20px;
+   
 }
 
 .filtres ul li 

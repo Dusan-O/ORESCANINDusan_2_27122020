@@ -66,23 +66,9 @@
         box-shadow:none;
         transition: none;
     }
-    nav ul li 
-    {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 10px;
-    }
     
-    .filtres ul li 
-    {
-        display: flex;
-        padding-top: 20px;
-    }
 
-    .filtres
-    {
-        border: 10px;
-    }
+  
 
     #main
     {
@@ -370,27 +356,6 @@
         height: 0.7px;
     }
 
-
-
-    .filtres ul li 
-    {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    }
-
-    .filtres ul span li 
-    {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .filtres ul
-    {
-    margin-left: 0 ;
-    display: flex;
-    flex-direction: column;
-    }
 
     .filtre1
     {  
