@@ -275,7 +275,7 @@ body {
     h2 .fas {
     margin-left : 100px;
     }
-    #main .populaires .hotels1 {
+    #main .populaires .img_card1 {
     width : auto;
     height : 25%;
     background : #fff;
@@ -286,11 +286,11 @@ body {
     flex-flow : row wrap;
     box-shadow : 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
     }
-    #main .populaires .hotels1:hover {
+    #main .populaires .img_card1:hover {
     box-shadow : 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
     transition : 1s;
     }
-    #main .populaires .hotels1 a {
+    #main .populaires .img_card1 a {
     display : flex;
     flex-direction : row;
     }
@@ -344,7 +344,7 @@ body {
     justify-content : space-between;
     align-items : center;
     }
-    #activites .hotels2 {
+    #activites .img_card2 {
     height : 500px;
     width : 22%;
     background-color : #fff;
@@ -352,11 +352,11 @@ body {
     box-shadow : 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
     border-radius : 20px 20px;
     }
-    #activites .hotels2:hover {
+    #activites .img_card2:hover {
     box-shadow : 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
     transition : 1s;
     }
-    #activites .hotels2 .picture2 {
+    #activites .img_card2 .picture2 {
     height : 450px;
     width : auto;
     border-radius : 20px 20px 0 0;
@@ -365,12 +365,12 @@ body {
     flex-direction : column;
     margin-bottom : 10px;
     }
-    #activites .hotels3 {
+    #activites .img_card3 {
     height : 500px;
     width : 23%;
     padding-bottom : 50px;
     }
-    #activites .hotels3 .picture5 {
+    #activites .img_card3 .picture5 {
     display : flex;
     flex-direction : column;
     box-shadow : 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
@@ -380,17 +380,17 @@ body {
     margin-top : 30px;
     overflow : hidden;
     }
-    #activites .hotels3 .picture5:hover {
+    #activites .img_card3 .picture5:hover {
     box-shadow : 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
     transition : 1s;
     }
-    #activites .hotels3 .picture5 .picture3 {
+    #activites .img_card3 .picture5 .picture3 {
     height : 190px;
     width : auto;
     border-radius : 20px 20px 0 0;
     overflow : hidden;
     }
-    #activites .hotels3 .picture5 .texte2 {
+    #activites .img_card3 .picture5 .texte2 {
     height : 10px;
     width : auto;
     background-color : #fff;
@@ -407,7 +407,7 @@ body {
     font-weight : bold;
     text-align : left;
     }
-    .hotels3 .picture6 {
+    .img_card3 .picture6 {
     height : 200px;
     width : auto;
     border : black solid 0;
@@ -418,7 +418,7 @@ body {
     box-shadow : 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
     overflow : hidden;
     }
-    .hotels3 .picture6:hover {
+    .img_card3 .picture6:hover {
     box-shadow : 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
     transition : 1s;
     }
@@ -435,7 +435,7 @@ body {
     border-radius : 0 0 20px 20px;
     border : 30px;
     }
-    .hotels3 .picture8 {
+    .img_card3 .picture8 {
     height : 230px;
     width : auto;
     border : black solid 0;
@@ -446,11 +446,11 @@ body {
     box-shadow : 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
     overflow : hidden;
     }
-    .hotels3 .picture8:hover {
+    .img_card3 .picture8:hover {
     box-shadow : 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
     transition : 1s;
     }
-    #activites .hotels3 .picture9 {
+    #activites .img_card3 .picture9 {
     display : flex;
     flex-direction : column;
     height : 195px;

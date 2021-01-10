@@ -31,37 +31,37 @@
         transition: none;
     }
 
-    #main #hebergements .hotels1:hover
+    #main #hebergements .img_card1:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #activites .hotels2:hover
+    #activites .img_card2:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #activites .hotels3 .picture5:hover
+    #activites .img_card3 .picture5:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    .hotels3 .picture6:hover
+    .img_card3 .picture6:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    .hotels3 .picture8:hover
+    .img_card3 .picture8:hover
     {
         box-shadow:none;
         transition: none;
     }
 
-    #main .populaires .hotels1:hover
+    #main .populaires .img_card1:hover
     {
         box-shadow:none;
         transition: none;
@@ -209,31 +209,31 @@
         transition: none;
     }
 
-    #activites .hotels2:hover
+    #activites .img_card2:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #activites .hotels3 .picture5:hover
+    #activites .img_card3 .picture5:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    .hotels3 .picture6:hover
+    .img_card3 .picture6:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    .hotels3 .picture8:hover
+    .img_card3 .picture8:hover
     {
         box-shadow:none;
         transition: none;
     }
 
-    #main .populaires .hotels1:hover
+    #main .populaires .img_card1:hover
     {
         box-shadow:none;
         transition: none;
@@ -404,7 +404,7 @@
     }
 
 /* Populaires */
-    #main .populaires .hotels1 
+    #main .populaires .img_card1 
     {
         width: 100%;
 
@@ -423,7 +423,7 @@
         margin-bottom: 20px;
     }
 
-    .populaires .hotels1
+    .populaires .img_card1
     {
         width: 100%;
         height: 100%;
@@ -511,7 +511,7 @@
         height: 1500px;
     }
 
-    #activites .hotels2
+    #activites .img_card2
     {
         width: 100%;
         height: 200px;
@@ -520,7 +520,7 @@
 
         flex-direction: column;
     }
-    #activites .hotels3
+    #activites .img_card3
     {
         width: 100%;
         height: 450px;
@@ -529,17 +529,17 @@
         margin-bottom: 5px;
     }
 
-    #activites .hotels3 a 
+    #activites .img_card3 a 
     {
         width: 100%;
     }
 
-    #activites .hotels2 a 
+    #activites .img_card2 a 
     {
         width: 100%;
     }
 
-    #activites .hotels2 img 
+    #activites .img_card2 img 
     {
         object-fit: cover;
         object-position: 50% 50%;
@@ -547,7 +547,7 @@
         height: 100%;
     }
 
-    #activites .hotels3 img 
+    #activites .img_card3 img 
     {
         object-fit: cover;
         object-position: 50% 50%;
@@ -555,46 +555,46 @@
         height: auto;
     }
 
-    #activites .hotels2 .pciture10
+    #activites .img_card2 .pciture10
     {
         width: 100%;
         height: 150px;
         border-bottom: 5px;
     }
 
-    #activites .hotels3 .picture5
+    #activites .img_card3 .picture5
     {
         width: 100%;
         height: 200px;
         margin-bottom: 5px;
     }
 
-    #activites .hotels3 .picture6
+    #activites .img_card3 .picture6
     {
         width: 100%;
         height: 200px;
     }
 
-    #activites .hotels3 .picture8
+    #activites .img_card3 .picture8
     {
         width: 100%;
         height: 200px;
     }
 
-    #activites .hotels3 .picture5
+    #activites .img_card3 .picture5
     {
         width: 100%;
         height: 200px;
     }
 
-    #activites .hotels2 .picture2
+    #activites .img_card2 .picture2
     {
         width: 100%;
         height: 150px;
         margin-bottom: 10px;
     }
     
-    #activites .hotels3 .picture3
+    #activites .img_card3 .picture3
     {
         width: 100%;
         height: 10px;
@@ -602,34 +602,34 @@
         object-position: 100% 100%;
     }
 
-    #activites .hotels3 .picture5 .texte2
+    #activites .img_card3 .picture5 .texte2
     {
         width: 100%;
         height: 35%;
     }
 
-    #activites .hotels3 .picture7
+    #activites .img_card3 .picture7
     {
         width: 100%;
         height: 200px;
         margin-bottom: 10px;
     }
 
-    #activites .hotels3 .picture9
+    #activites .img_card3 .picture9
     {
         width: 100%;
         height: 200px;
         margin-bottom: 10px;
     }
    
-    #activites .hotels2 .texte2 .description
+    #activites .img_card2 .texte2 .description
     {
         width:100%;
         height: 25%;
         font-size: 0.9em;
     }
 
-    #activites .hotels3 .texte2 .description
+    #activites .img_card3 .texte2 .description
     {
         width:100%;
         height: 25%;
