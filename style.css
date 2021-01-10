@@ -146,6 +146,13 @@ body {
     color : black;
     }
 
+    .lieu .fas 
+    {
+        color: #fff;
+        background: #3D00FF;
+        border-radius: 25px 25px;
+    }
+
 /*Hebergements */
     #main {
     display : flex;
