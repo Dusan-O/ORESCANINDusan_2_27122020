@@ -1,3 +1,4 @@
+/* Générales */
 body {
     font-family : "Raleway", "sans serif";
     }
@@ -5,6 +6,8 @@ body {
     margin : 0 20px;
     width : auto;
     }
+
+/* Navigation */
     nav {
     display : flex;
     justify-content : space-between;
@@ -48,6 +51,8 @@ body {
     border-top : 2px solid #3D00FF;
     padding-top : 38px;
     }
+
+/* Header */
     header .p {
     font-size : 2em;
     }
@@ -140,6 +145,8 @@ body {
     text-decoration : none;
     color : black;
     }
+
+/*Hebergements */
     #main {
     display : flex;
     justify-content : space-between;
@@ -244,6 +251,8 @@ body {
     color : #D8D8D8;
     font-size : 0.8em;
     }
+
+/* Populaires */
     .populaires {
     width : 35%;
     height : 700px;
@@ -316,10 +325,11 @@ body {
     display : inline-block;
     padding-top: 75px;
     }
-
     .populaires .texte1 .etoiles1{
     padding-top: 60px;
     }
+
+/* Activites */
     .activites_marseille {
     padding-top : 35px;
     }
@@ -448,6 +458,8 @@ body {
     border-radius : 20px 20px 0 0;
     overflow : hidden;
     }
+
+/* Footer */
     #bas {
     display : flex;
     flex-direction : row;
