@@ -261,13 +261,15 @@
         position: absolute;
         display: flex;
         top: 110px;
-        left: 35px;
+        left: 0px;
         align-content: center;
         justify-content:center;
         border-bottom: 3px solid #3D00FF;
         padding-bottom:5px;
         padding-right: 0;
         border-right: 0;
+        width: 61%;
+
     }
 
     nav ul .accomodations_btn a:hover
@@ -280,6 +282,7 @@
     {
         position: absolute;
         display: flex;
+        justify-content: space-around;
         top: 110px;
         left: 250px;
         align-content: center;
@@ -287,7 +290,8 @@
         border-bottom:1px solid black;
         padding-bottom:5px;
         padding-right: 0;
-        border-right: 0;;
+        border-right: 0;
+        width: 50%;
     }
 
     nav ul .activities_btn a:hover
