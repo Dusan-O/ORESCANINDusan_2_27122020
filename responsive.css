@@ -67,9 +67,6 @@
         transition: none;
     }
     
-
-  
-
     #main
     {
         display: flex;
@@ -181,7 +178,7 @@
 
 @media(max-width: 767px)
 {   
-    
+/* Hover */
     nav ul .accomodations_btn a:hover
     {
         border-top: none;
@@ -198,11 +195,6 @@
     {
         border-top: none;
         padding-top: 0px;
-    }
-
-    header .filtres .fas:hover
-    {
-        font-size: 1em;
     }
 
     #main #hebergements .img_card:hover
@@ -247,8 +239,7 @@
         transition: none;
     }
 
-
-   
+/* General */
     #bloc_page
     {
         width: 100%;
@@ -256,7 +247,7 @@
     }
 
 
-    
+/* Nav */
     .signin
     {
         position: relative;
@@ -300,11 +291,16 @@
     }
 
     nav ul .activities_btn a:hover
-{
-    border-top: none;
-    padding-top: 0;
-}
+    {
+        border-top: none;
+        padding-top: 0;
+    }
+/* Header */
 
+    header .filtres .fas:hover
+    {
+        font-size: 1em;
+    }
     header h1
     {
         font-size: 1.3em;
@@ -317,47 +313,45 @@
     }
     .searchbar
     {
-    display: flex;
-    align-content: space-around;
+        display: flex;
+        align-content: space-around;
     }
 
     .searchbar .fas
     {
-    border-radius: 45px 0 0 45px;
-    font-size: 1em;
-    background: #F2F2F2;
-    overflow: hidden;
-    text-align: center;
-    height: 15px;
-
+        border-radius: 45px 0 0 45px;
+        font-size: 1em;
+        background: #F2F2F2;
+        overflow: hidden;
+        text-align: center;
+        height: 15px;
     }
 
     input
     {
-    height: 46px;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #000;
-    text-align: justify;
-    border: 1px solid #F2F2F2;
+        height: 46px;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #000;
+        text-align: justify;
+        border: 1px solid #F2F2F2;
     }
     
     .searchbar-text
     {
-    display:none;
-    border: 0px solid;
-    border-radius: 0 25px 25px 0;
-    height: 15px;
-    background: #3D00FF;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.5em;
+        display:none;
+        border: 0px solid;
+        border-radius: 0 25px 25px 0;
+        height: 15px;
+        background: #3D00FF;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.5em;
     }
     .magnifying_glass 
     {
         display:block;
-
     }
 
     .magnifying_glass .fas
@@ -370,35 +364,34 @@
         height: 0.7px;
     }
 
-
     .filtre1
     {  
-    border: 1px solid #D8D8D8;
-    padding:10px 10px 10px 0;
-    border-radius: 45px 45px;
+        border: 1px solid #D8D8D8;
+        padding:10px 10px 10px 0;
+        border-radius: 45px 45px;
 
     }
 
     .filtres ul li 
     {
-    font-size: 1.1em;
-    text-align: center;
-    padding: 8px;
+        font-size: 1.1em;
+        text-align: center;
+        padding: 8px;
     }
 
     .filtres a 
     {
-    border-left: 0;
+        border-left: 0;
     }
 
     .filtres .fas
     {
-    border: 0px solid;
-    border-radius: 45px 45px;
-    padding: 14px 14px;
-    background-color: #DBE7FF;
-    color: #3D00FF;
-    font-size: 1em;
+        border: 0px solid;
+        border-radius: 45px 45px;
+        padding: 14px 14px;
+        background-color: #DBE7FF;
+        color: #3D00FF;
+        font-size: 1em;
     }
 
     #main
@@ -408,14 +401,15 @@
         justify-content: space-between;
         width: 100%;
         height: 100%;
-        
     }
 
+/* Populaires */
     #main .populaires .hotels1 
     {
         width: 100%;
 
     }
+
     .populaires
     {
         width: 100%;
@@ -428,8 +422,6 @@
         border-radius: 0 0;
         margin-bottom: 20px;
     }
-
-
 
     .populaires .hotels1
     {
@@ -451,6 +443,7 @@
         margin-left: 150px;
     }
 
+/* Hebergements */
     #hebergements
     {
         width: auto;
@@ -479,7 +472,6 @@
         width: 100%;
         height: 50%;
         margin-bottom: 0;
-
     }
 
     #main #hebergements .picture img 
@@ -493,11 +485,11 @@
     {
         height: 20%;
     }
+
     #main #hebergements .texte1 .nom_de_lhotel
     {
         padding-bottom: 50px;
     }
-
 
     #main #hebergements .titre_hebergements_a_marseille
     {
@@ -509,6 +501,7 @@
         padding: 30px;
     }
 
+/* Activites */
     #activites
     {
         display: flex;
@@ -534,7 +527,6 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 5px;
-
     }
 
     #activites .hotels3 a 
@@ -546,7 +538,6 @@
     {
         width: 100%;
     }
-
 
     #activites .hotels2 img 
     {
@@ -569,7 +560,6 @@
         width: 100%;
         height: 150px;
         border-bottom: 5px;
-
     }
 
     #activites .hotels3 .picture5
@@ -577,8 +567,6 @@
         width: 100%;
         height: 200px;
         margin-bottom: 5px;
-
-        
     }
 
     #activites .hotels3 .picture6
@@ -604,7 +592,6 @@
         width: 100%;
         height: 150px;
         margin-bottom: 10px;
-
     }
     
     #activites .hotels3 .picture3
@@ -626,7 +613,6 @@
         width: 100%;
         height: 200px;
         margin-bottom: 10px;
-
     }
 
     #activites .hotels3 .picture9
@@ -634,7 +620,6 @@
         width: 100%;
         height: 200px;
         margin-bottom: 10px;
-
     }
    
     #activites .hotels2 .texte2 .description
@@ -642,7 +627,6 @@
         width:100%;
         height: 25%;
         font-size: 0.9em;
-
     }
 
     #activites .hotels3 .texte2 .description
@@ -652,6 +636,7 @@
         font-size: 0.9em;
     }
 
+/* Footer */
     #bas
     {
         display: flex;
@@ -660,10 +645,12 @@
         margin-right: -50px;
         margin-left: -20px;
     }
+
     #bas ul 
     {   display: flex;
         flex-direction: column;
     }
+
     #bas ul li
     {
        font-size: 0.6em;
