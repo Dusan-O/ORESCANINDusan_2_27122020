@@ -235,7 +235,7 @@
 
     #main .populaires .img_card1:hover
     {
-        box-shadow:none;
+        box-shadow: none;
         transition: none;
     }
 
@@ -244,6 +244,7 @@
     {
         width: 100%;
         height: auto;
+        margin-left: 24px;
     }
 
 
@@ -252,8 +253,8 @@
     {
         position: relative;
         top: 5px;
-        right: -50px;
-        padding-right: 0;
+        right: 0;
+        border-right: 0;
     }
 
     nav ul .accomodations_btn
@@ -261,14 +262,12 @@
         position: absolute;
         display: flex;
         top: 110px;
-        left: 0px;
+        left: 10px;
         align-content: center;
         justify-content:center;
         border-bottom: 3px solid #3D00FF;
         padding-bottom:5px;
-        padding-right: 0;
-        border-right: 0;
-        width: 61%;
+        width: 50%;
 
     }
 
@@ -284,7 +283,7 @@
         display: flex;
         justify-content: space-around;
         top: 110px;
-        left: 250px;
+        left: 235px;
         align-content: center;
         justify-content:center;
         border-bottom:1px solid black;
