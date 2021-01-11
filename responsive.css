@@ -81,6 +81,11 @@
         margin: 20px 20px;
     }
 
+    .filtres ul li 
+    {
+        margin-bottom: 10px;
+    }
+
     #hebergements
     {
         width: 100%;
