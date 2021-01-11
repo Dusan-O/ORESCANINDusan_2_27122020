@@ -193,7 +193,7 @@ body {
     align-content : space-around;
     }
     #main #hebergements .img_card {
-    width : 25%;
+    width : 30%;
     height : 230px;
     background : #fff;
     padding-bottom : 20px;
@@ -210,7 +210,7 @@ body {
     transition : 1s;
     }
     .picture {
-    width : 96%;
+    width : 98%;
     height : 150px;
     overflow : hidden;
     margin : 4px auto;
