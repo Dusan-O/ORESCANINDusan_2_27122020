@@ -253,8 +253,6 @@
     {
         position: relative;
         top: 5px;
-        right: 0;
-        border-right: 0;
     }
 
     nav ul .accomodations_btn
@@ -410,7 +408,6 @@
     #main .populaires .img_card1 
     {
         width: 100%;
-
     }
 
     .populaires
@@ -435,7 +432,7 @@
 
     .populaires h2
     {
-        margin-left: 10px;
+        margin-left: 60px;
         font-size: 1.5em;
         display: flex;
         justify-content: space-between;
@@ -443,7 +440,7 @@
 
     .populaires h2 .fas 
     {
-        margin-left: 150px;
+        margin-left: 210px;
     }
 
 /* Hebergements */
