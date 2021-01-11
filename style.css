@@ -3,7 +3,7 @@ body {
     font-family : "Raleway", "sans serif";
     }
     #bloc_page {
-    margin : 0 20px;
+    margin : 0 50px;
     width : auto;
     }
 
@@ -16,6 +16,7 @@ body {
     nav img {
     height : 70px;
     width : 135px;
+    margin-left: 25px;
     }
     nav ul li {
     list-style-type : none;
@@ -165,14 +166,14 @@ body {
     .titre_hebergements_a_marseille {
     height : auto;
     width : 100%;
-    padding-left : 40px;
+    padding-left : 25px;
     font-size : 1.5em;
     font-weight : bold;
     }
     .afficher_plus {
     height : auto;
     width : 100%;
-    padding-left : 40px;
+    padding-left : 25px;
     font-size : 1em;
     font-weight : bold;
     }
@@ -193,7 +194,7 @@ body {
     align-content : space-around;
     }
     #main #hebergements .img_card {
-    width : 30%;
+    width : 29%;
     height : 230px;
     background : #fff;
     padding-bottom : 20px;
