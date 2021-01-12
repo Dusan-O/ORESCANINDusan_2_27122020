@@ -34,7 +34,7 @@ body {
     padding : 0 38px;
     }
     nav ul .accomodations_btn a:hover {
-    border-top : 1px solid #3D00FF;
+    border-top : 1px solid #0065FC;
     padding-top : 38px;
     }
     nav ul .activities_btn a {
@@ -49,7 +49,7 @@ body {
     padding-right : 50px;
     }
     nav ul .signin a:hover {
-    border-top : 2px solid #3D00FF;
+    border-top : 2px solid #0065FC;
     padding-top : 38px;
     }
 
@@ -63,7 +63,7 @@ body {
     display : inline-block;
     }
     .bouton_rechercher {
-    background : #3D00FF;
+    background : #0065FC;
     color : #fff;
     }
     .far {
@@ -94,7 +94,7 @@ body {
     height : 50px;
     padding : 20px 15px 15px 15px;
     margin-left : -6px;
-    background : #3D00FF;
+    background : #0065FC;
     color : #fff;
     text-decoration : none;
     font-weight : bold;
@@ -134,13 +134,14 @@ body {
     border :solid 2px;
     border-radius : 45px 45px;
     padding : 12px;
-    background-color : #DBE7FF;
-    color : #3D00FF;
+    background-color : #DEEBFF;
+    color : #0065FC;
     margin-left : -13px;
     margin-right : 10px;
     }
     header .filtres .fas:hover {
-    font-size : 1.5em;
+    background-color : #0065FC;
+    color : #DEEBFF;
     }
     .filtres a {
     text-decoration : none;
@@ -150,7 +151,7 @@ body {
     .lieu .fas 
     {
         color: #fff;
-        background: #3D00FF;
+        background: #0065FC;
         border-radius: 25px 25px;
     }
 /*Hebergements */
@@ -251,7 +252,7 @@ body {
     }
     .stars1 {
     padding-left : 15px;
-    color : #3D00FF;
+    color : #0065FC;
     font-size : 0.8em;
     }
     .empty_star {
