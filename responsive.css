@@ -149,7 +149,7 @@
 
 /* Smartphone */
 
-@media(max-width: 750px)
+@media(max-width: 767px)
 {   
 /* Hover */
     nav ul .accomodations_btn a:hover, .activities_btn a:hover,.signin a:hover

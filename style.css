@@ -153,7 +153,6 @@
     text-decoration : none;
     color : black;
     }
-
     .lieu .fas 
     {
         color: #fff;
@@ -230,7 +229,7 @@
     height : 99%;
     }
     .texte {
-    width : auto;
+    width : 98%;
     height : 20%;
     color : black;
     }
