@@ -139,6 +139,9 @@ body {
     margin-left : -13px;
     margin-right : 10px;
     }
+    .filtres .fas.fa-child {
+    padding: 12px 15px;
+    }
     header .filtres .fas:hover {
     background-color : #0065FC;
     color : #DEEBFF;
