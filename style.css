@@ -1,7 +1,7 @@
 /* Générales */
-body {
-    font-family : "Raleway", "sans serif";
-    }
+* {
+    font-family: 'Raleway', sans-serif;
+}
     #bloc_page {
     margin : 0 50px;
     width : auto;
@@ -54,6 +54,9 @@ body {
     }
 
 /* Header */
+    header h1{
+    font-size: 2em;
+    }
     header .p {
     font-size : 2em;
     }
