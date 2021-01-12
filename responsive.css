@@ -2,19 +2,7 @@
 @media(min-width: 768px) and (max-width: 1388px)
 {   
 
-        nav ul .accomodations_btn a:hover
-    {
-        border-top: none;
-        padding-top: 0px;
-    }
-
-    nav ul .activities_btn a:hover
-    {
-        border-top: none;
-        padding-top: 0px;
-    }
-
-    nav ul .signin a:hover
+    nav ul .accomodations_btn a:hover, .activities_btn a:hover, .signin a:hover
     {
         border-top: none;
         padding-top: 0px;
@@ -25,39 +13,21 @@
         font-size: 1em;
     }
 
-    #main #hebergements .img_card:hover
+    #main #hebergements .img_card:hover, .img_card1:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #main #hebergements .img_card1:hover
+    #activites .img_card2:hover, .img_card3 .picture5:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #activites .img_card2:hover
+    .img_card3 .picture6:hover, .picture8:hover
     {
         box-shadow: none;
-        transition: none;
-    }
-
-    #activites .img_card3 .picture5:hover
-    {
-        box-shadow: none;
-        transition: none;
-    }
-
-    .img_card3 .picture6:hover
-    {
-        box-shadow: none;
-        transition: none;
-    }
-
-    .img_card3 .picture8:hover
-    {
-        box-shadow:none;
         transition: none;
     }
 
@@ -69,9 +39,7 @@
     
     #main
     {
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: space-between;
     }
 
     #bloc_page
@@ -181,60 +149,30 @@
 
 /* Smartphone */
 
-@media(max-width: 767px)
+@media(max-width: 750px)
 {   
 /* Hover */
-    nav ul .accomodations_btn a:hover
+    nav ul .accomodations_btn a:hover, .activities_btn a:hover,.signin a:hover
     {
         border-top: none;
         padding-top: 0px;
     }
 
-    nav ul .activities_btn a:hover
-    {
-        border-top: none;
-        padding-top: 0px;
-    }
-
-    nav ul .signin a:hover
-    {
-        border-top: none;
-        padding-top: 0px;
-    }
-
-    #main #hebergements .img_card:hover
+    #main #hebergements .img_card:hover, .hotels1:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #main #hebergements .hotels1:hover
+    #activites .img_card2:hover, .img_card3 .picture5:hover
     {
         box-shadow: none;
         transition: none;
     }
 
-    #activites .img_card2:hover
+    .img_card3 .picture6:hover, .picture8:hover
     {
         box-shadow: none;
-        transition: none;
-    }
-
-    #activites .img_card3 .picture5:hover
-    {
-        box-shadow: none;
-        transition: none;
-    }
-
-    .img_card3 .picture6:hover
-    {
-        box-shadow: none;
-        transition: none;
-    }
-
-    .img_card3 .picture8:hover
-    {
-        box-shadow:none;
         transition: none;
     }
 
@@ -554,10 +492,10 @@
 
     #activites .img_card3 img 
     {
-        object-fit: cover;
-        object-position: 50% 50%;
-        width: auto;
-        height: auto;
+        object-fit:cover;
+        object-position: 0% 50%;
+        width: 100%;
+        height: 95%;
     }
 
     #activites .img_card2 .pciture10
