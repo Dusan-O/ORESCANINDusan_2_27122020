@@ -16,7 +16,7 @@
     #hebergements
     {
         width: 100%;
-    
+        margin-bottom: 10px;
     }
     .populaires
     {
@@ -38,7 +38,7 @@
 }
 
 /* Tablette */
-@media(min-width: 424px) and (max-width: 768px)
+@media(min-width: 426px) and (max-width: 768px)
 {   
 
     nav ul .accomodations_btn a:hover, .activities_btn a:hover, .signin a:hover
@@ -226,7 +226,7 @@
     {
         height: auto;
         width: auto;
-        padding: 5px;
+        padding: 0px;
     }
 
 
@@ -642,4 +642,33 @@
         font-size: 0.8em;
         line-height: 5px;
     }
+}
+
+@media(min-width: 320px) and (max-width: 375px){
+    
+        #bloc_page
+        {
+            height: auto;
+            max-width: 375px;
+            margin: 10px;
+        }
+
+        .populaires{
+            width: 375px;
+            padding-right: 20px;
+        }
+
+        #hebergements, #activites
+        {
+            width: 375px;
+        }
+
+        footer
+        {
+            min-width: 320px;
+            padding-right: 50px;
+        }
+
+
+    
 }
