@@ -1,5 +1,5 @@
 /* Tablette */
-@media(min-width: 768px) and (max-width: 1388px)
+@media(min-width: 424px) and (max-width: 768px)
 {   
 
     nav ul .accomodations_btn a:hover, .activities_btn a:hover, .signin a:hover
@@ -38,13 +38,13 @@
     }
     
     #main
-    {
+    {   
         flex-direction: column-reverse;
     }
 
     #bloc_page
     {
-        width: auto;
+        max-width: 768px;
         height: auto;
     }
 
@@ -58,7 +58,6 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
     #hebergements img
@@ -131,6 +130,8 @@
     {
         height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     footer ul li 
@@ -387,6 +388,7 @@
     {
         padding: 20px 0px;
         margin-left: 30px;
+        margin-right: 0px;
     }
     #hebergements
     {
@@ -398,9 +400,6 @@
         margin-bottom: 20px;
         border: 0px #F2F2F2 solid;
         background: none;
-        margin: 0;
-        padding: 0;
-        border: 0;
     }
 
     #main #hebergements .img_card
@@ -409,6 +408,7 @@
         height: 210px;
         padding-bottom: 30px;
         margin-bottom: 20px;
+        padding: 0;
     }
 
     #main #hebergements .picture 
