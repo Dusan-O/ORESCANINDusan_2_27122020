@@ -185,8 +185,8 @@
     #bloc_page
     {
         height: auto;
-        margin-left: 24px;
-        padding: 0;
+        width: auto;
+        padding: 5px;
     }
 
 
@@ -196,6 +196,7 @@
     {
         position: relative;
         top: 5px;
+        padding-right: 0;
     }
 
     nav ul .accomodations_btn
@@ -346,29 +347,25 @@
     }
 
 /* Populaires */
-    #main .populaires .img_card1 
-    {
-        width: 100%;
-    }
+    
 
     .populaires
     {
-        width: 100%;
+        width: auto;
         height: 100%;
         display: flex;   
         flex-direction: column;
-        background-size:auto;
-        margin: -30px;
-        padding-right: 60px;
+        margin: 0px -10px;
+        padding: 0;
         border-radius: 0 0;
         margin-bottom: 20px;
+        background: #F2F2F2;
     }
 
     .populaires .img_card1
     {
-        width: 100%;
+        width: auto;
         height: 100%;
-        margin-left: 60px;
     }
 
     .populaires h2
@@ -381,10 +378,15 @@
 
     .populaires h2 .fas 
     {
-        margin-left: 210px;
+        margin-left: 150px;
     }
 
 /* Hebergements */
+
+    #hebergements .titre_hebergements_a_marseille
+    {
+        padding: 20px 0px;
+    }
     #hebergements
     {
         width: auto;
@@ -402,11 +404,10 @@
 
     #main #hebergements .img_card
     {
-        width: 100%;
+        width: 92%;
         height: 210px;
         padding-bottom: 30px;
         margin-bottom: 20px;
-        margin: auto 0px;
     }
 
     #main #hebergements .picture 
@@ -433,14 +434,9 @@
         padding-bottom: 50px;
     }
 
-    #main #hebergements .titre_hebergements_a_marseille
-    {
-        padding: 30px;
-    }
-
     #main #hebergements .afficher_plus
     {
-        padding: 30px;
+        padding:30px 0px;
     }
 
 /* Activites */
@@ -455,7 +451,7 @@
 
     #activites .img_card2
     {
-        width: 100%;
+        width: 90%;
         height: 200px;
         display: flex;
         margin-bottom: 5px;
@@ -464,7 +460,7 @@
     }
     #activites .img_card3
     {
-        width: 100%;
+        width: 90%;
         height: 450px;
         display: flex;
         flex-direction: column;
