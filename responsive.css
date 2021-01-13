@@ -200,6 +200,11 @@
     }
 
     /* ACTIVITES */
+    .activites_marseille
+    {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
     #activites
     {
         display: flex;
@@ -212,18 +217,21 @@
     {
         width: 75%;
         height: auto;
+        margin-bottom: 10px;
     }
 
     #activites .img_card3
     {
         width: 75%;
         height: auto;
+        margin-bottom: 10px;
+
     }
 
     
     #activites img
     {
-        height: 100%;
+        height: 98%;
         width: auto;
         object-fit: cover;
         object-position: center;
@@ -233,12 +241,14 @@
     {
         height: auto;
         width: auto;
+        padding-bottom: 20px;
+
     }
 
 
     #activites .img_card3 .texte2
     {
-        height: 30%;
+        height: auto;
         width: auto;
     }
 
@@ -247,6 +257,8 @@
         font-size: 0.9em;
         text-align: left;
     }
+
+    
 
     /* FOOTER */
     #bas
