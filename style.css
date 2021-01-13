@@ -3,8 +3,8 @@
     font-family: 'Raleway', sans-serif;
 }
     #bloc_page {
-    margin : 0 50px;
     width : auto;
+    padding: 0 40px;
     }
 
 /* Navigation */
@@ -315,7 +315,7 @@
     overflow : hidden;
     }
     .texte1 {
-    width : 230px;
+    width : 175px;
     height : 165px;
     border :#fff  solid 0px;
     border-radius : 0 20px 20px 0;
@@ -480,12 +480,16 @@
     }
 
 /* Footer */
+
+footer{
+    background : #F2F2F2;
+
+}
     #bas {
     display : flex;
     flex-direction : row;
     height : auto;
     width : auto;
-    background : #F2F2F2;
     }
     footer ul li {
     list-style-type : none;

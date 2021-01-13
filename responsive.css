@@ -46,7 +46,6 @@
     {
         width: auto;
         height: auto;
-        margin: 20px 20px;
     }
 
     .filtres ul li 
@@ -149,7 +148,7 @@
 
 /* Smartphone */
 
-@media(max-width: 767px)
+@media(max-width: 425px)
 {   
 /* Hover */
     nav ul .accomodations_btn a:hover, .activities_btn a:hover,.signin a:hover
@@ -185,10 +184,11 @@
 /* General */
     #bloc_page
     {
-        width: 100%;
         height: auto;
         margin-left: 24px;
+        padding: 0;
     }
+
 
 
 /* Nav */
@@ -208,7 +208,6 @@
         justify-content:center;
         border-bottom: 3px solid #3D00FF;
         padding-bottom:5px;
-        width: 50%;
 
     }
 
@@ -231,7 +230,6 @@
         padding-bottom:5px;
         padding-right: 0;
         border-right: 0;
-        width: 50%;
     }
 
     nav ul .activities_btn a:hover
@@ -300,7 +298,7 @@
 
     .magnifying_glass .fas
     {
-        background:#3D00FF ;
+        background:#0065FC ;
         border-radius: 10px 10px;
         padding-bottom: 30px;
         color: #fff;
@@ -334,7 +332,7 @@
         border-radius: 45px 45px;
         padding: 14px 14px;
         background-color: #DBE7FF;
-        color: #3D00FF;
+        color: #0065FC;
         font-size: 1em;
     }
 
@@ -408,6 +406,7 @@
         height: 210px;
         padding-bottom: 30px;
         margin-bottom: 20px;
+        margin: auto 0px;
     }
 
     #main #hebergements .picture 
@@ -584,8 +583,6 @@
     {
         display: flex;
         flex-direction: column;
-        width: auto;
-        margin-right: -50px;
         margin-left: -20px;
     }
 
