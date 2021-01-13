@@ -370,7 +370,7 @@
 
     .populaires h2
     {
-        margin-left: 60px;
+        margin-left: 0px;
         font-size: 1.5em;
         display: flex;
         justify-content: space-between;
@@ -378,7 +378,7 @@
 
     .populaires h2 .fas 
     {
-        margin-left: 150px;
+        margin-left: 65px;
     }
 
 /* Hebergements */
@@ -386,6 +386,7 @@
     #hebergements .titre_hebergements_a_marseille
     {
         padding: 20px 0px;
+        margin-left: 30px;
     }
     #hebergements
     {
@@ -437,9 +438,14 @@
     #main #hebergements .afficher_plus
     {
         padding:30px 0px;
+        margin-left: 30px;
     }
 
 /* Activites */
+.activites_marseille
+{
+    margin-left: 20px;
+}
     #activites
     {
         display: flex;
